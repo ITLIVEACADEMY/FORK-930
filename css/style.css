@@ -35,6 +35,72 @@ ul {
 
 /* membership start */
 
+.membership {
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.membership__title {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 51px;
+    line-height: 54px;
+    letter-spacing: 0.5px;
+    color: #692340;
+}
+
+.membership__text {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #692340;
+    text-align: center;
+    margin-top: 37px;
+
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 117px;
+
+}
+
+.container__card {
+    display: flex;
+    column-gap: 60px;
+
+}
+
+.container__cards {
+    text-align: center;
+    max-width: 200px;
+
+}
+
+.card__title {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    color: #692340;
+    margin-top: 30px;
+
+}
+
+.card__text {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #692340;
+    margin-top: 20px;
+}
+
 /* membership end */
 
 
@@ -57,9 +123,6 @@ ul {
 
 
 /* already start */
-
-
-
 
 /* already end */
 
